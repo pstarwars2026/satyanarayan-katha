@@ -1,0 +1,32 @@
+name: Support or feedback
+description: Report a problem, a word that sounds wrong, or suggest an improvement.
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: "This report will be public. Do not share account details or personal information."
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: "For example: iPad Air, iOS 27"
+  - type: dropdown
+    id: voice
+    attributes:
+      label: Voice
+      options:
+        - Female voice (Achernar)
+        - Male voice (Sadaltager)
+        - Not voice-specific
+  - type: input
+    id: where
+    attributes:
+      label: Section and time (if it is about a word or shloka)
+      placeholder: "For example: Section 18, 11:32"
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What happened, or what would you like improved?
+      description: Keep private information out.
+    validations:
+      required: true
