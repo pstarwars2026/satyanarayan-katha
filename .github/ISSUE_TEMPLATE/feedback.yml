@@ -15,8 +15,8 @@ body:
     attributes:
       label: Voice
       options:
-        - Female voice (Achernar)
-        - Male voice (Sadaltager)
+        - Female voice
+        - Male voice
         - Not voice-specific
   - type: input
     id: where
